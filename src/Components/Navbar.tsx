@@ -9,6 +9,9 @@ export const Navbar = () => {
       <Link href="/about" className="hover:text-blue-500  text-white">
         About
       </Link>
+      <Link href="/contact" className="hover:text-blue-500  text-white">
+        Contact
+      </Link>
     </div>
   );
 };
