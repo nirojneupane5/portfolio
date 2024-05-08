@@ -29,6 +29,14 @@ export default function Home() {
               <BsGithub className="text-5xl" />
             </Link>
           </div>
+          <div className="mt-5">
+            <h1 className="text-lg font-bold text-black">Skills</h1>
+            <h2 className="text-lg">MERN Stack</h2>
+            <h2 className="text-lg">Next js</h2>
+            <h2 className="text-lg">MySql</h2>
+            <h2 className="text-lg">Docker</h2>
+            <h2 className="text-lg">Github</h2>
+          </div>
         </div>
       </div>
     </>
