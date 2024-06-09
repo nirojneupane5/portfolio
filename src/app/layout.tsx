@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 
-import { Navbar } from "./(Components)/Navbar";
-
-const inter = Inter({ subsets: ["latin"] });
+const inter = Montserrat({ subsets: ["latin"], variable: "--font-mont" });
 
 export const metadata: Metadata = {
   title: "Niroj Neupane portfolio",
@@ -18,10 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Navbar />
-        {children}
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
