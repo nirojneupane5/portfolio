@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 import profilepic from "../../public/profile/Niroj Neupane.jpg";
 import Image from "next/image";
+import AniminatedText from "@/components/AniminatedText";
 export default function Home() {
   return (
     <main className="flex items-center text-dark w-full min-h-screen">
@@ -14,7 +15,7 @@ export default function Home() {
             />
           </div>
           <div className="w-1/2">
-            <h1>Turning Vision Into Reality With Code And Design</h1>
+            <AniminatedText text="Turning Vision Into Reality With Code And Design" />
             <p>
               As a skilled full-stack developer, I am dedicated to turning ideas
               into innovative web applications. Explore my latest projects and
