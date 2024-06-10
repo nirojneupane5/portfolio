@@ -4,6 +4,7 @@ import profilepic from "../../public/profile/Niroj Neupane.jpg";
 import Image from "next/image";
 import AniminatedText from "@/components/AniminatedText";
 import Link from "next/link";
+import HireMe from "@/components/HireMe";
 export default function Home() {
   return (
     <main className="flex items-center text-dark w-full min-h-screen">
@@ -45,6 +46,7 @@ export default function Home() {
           </div>
         </div>
       </Layout>
+      <HireMe />
     </main>
   );
 }
