@@ -1,6 +1,7 @@
 import { BiLinkExternal } from "react-icons/bi";
 import Layout from "@/components/Layout";
 import profilepic from "../../public/profile/Niroj Neupane.jpg";
+import lightbulb from "../../public/light bulb.svg";
 import Image from "next/image";
 import AniminatedText from "@/components/AniminatedText";
 import Link from "next/link";
@@ -47,6 +48,9 @@ export default function Home() {
         </div>
       </Layout>
       <HireMe />
+      <div className="absolute right-8 bottom-8 inline-block w-24">
+        <Image src={lightbulb} alt="light bulb" className="h-full w-full" />
+      </div>
     </main>
   );
 }
