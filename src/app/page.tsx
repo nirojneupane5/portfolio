@@ -1,6 +1,6 @@
 import { BiLinkExternal } from "react-icons/bi";
 import Layout from "@/components/Layout";
-import profilepic from "../../public/profile/Niroj Neupane.jpg";
+import profilepic from "../../public/profile/Developer.png";
 import lightbulb from "../../public/light bulb.svg";
 import Image from "next/image";
 import AniminatedText from "@/components/AniminatedText";
