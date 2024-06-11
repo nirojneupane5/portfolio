@@ -4,6 +4,8 @@ import profile from "../../../public/profile/Niroj Neupane.jpg";
 import type { Metadata } from "next";
 import Image from "next/image";
 
+import Skills from "./Skills";
+
 export const metadata: Metadata = {
   title: "Niroj Neupane | About",
   description: "Niroj Neupane about page",
@@ -70,6 +72,7 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
+        <Skills />
       </Layout>
     </main>
   );
