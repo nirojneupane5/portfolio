@@ -1,6 +1,8 @@
 import AniminatedText from "@/components/AniminatedText";
 import Layout from "@/components/Layout";
+import profile from "../../../public/profile/Niroj Neupane.jpg";
 import type { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Niroj Neupane | About",
@@ -10,8 +12,11 @@ export const metadata: Metadata = {
 const AboutPage = () => {
   return (
     <main className="flex w-full flex-col items-center justify-center">
-      <Layout className="pt-16">
-        <AniminatedText text="Passion Fuels Purpose!" className="mb-2" />
+      <Layout className="pt-4">
+        <AniminatedText
+          text="Passion Fuels Purpose!"
+          className="mb-4 !text-5xl"
+        />
         <div className="grid grid-cols-8 gap-16 w-full">
           <div className="col-span-3 flex flex-col items-start justify-start text-justify">
             <h1 className="py-4 text-lg font-bold uppercase text-black/75">
@@ -35,6 +40,34 @@ const AboutPage = () => {
               to the opportunity to bring my skills and passion to your next
               project.
             </p>
+          </div>
+          <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-black bg-white p-8">
+            <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] bg-black rounded-2xl" />
+            <Image
+              src={profile}
+              alt="Niroj Neupane"
+              className="object-cover h-full w-full rounded-2xl"
+            />
+          </div>
+          <div className="col-span-2 flex flex-col justify-between item-end">
+            <div className="flex flex-col item-end justify-center">
+              <span className="inline-block text-7xl font-bold">5+</span>
+              <h2 className="text-xl font-medium text-black/75 capitalize">
+                Project Completed
+              </h2>
+            </div>
+            <div className="flex flex-col item-end justify-center">
+              <span className="inline-block text-7xl font-bold">5</span>
+              <h2 className="text-xl font-medium text-black/75 capitalize">
+                months of experience
+              </h2>
+            </div>
+            <div className="flex flex-col item-end justify-center">
+              <span className="inline-block text-7xl font-bold">2+</span>
+              <h2 className="text-xl font-medium text-black/75 capitalize">
+                satisfied client
+              </h2>
+            </div>
           </div>
         </div>
       </Layout>
