@@ -5,7 +5,7 @@ const Experience = () => {
     <div className="mt-10">
       <h2 className="text-5xl font-bold text-black text-center">Experience</h2>
       <div className="w-[75%] mx-auto relative">
-        <div className="my-10 w-[60%] mx-auto">
+        <div className="my-10">
           <h3 className="text-2xl font-semibold capitalize">
             Company: Edit Enterprise
           </h3>
