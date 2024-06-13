@@ -38,7 +38,12 @@ const FeatureProject = ({
         target={"_blank"}
         className="w-1/2 overflow-hidden cursor-pointer rounded-lg"
       >
-        <Image src={img} alt={title} className="object-cover w-full h-auto" />
+        <Image
+          src={img}
+          alt={title}
+          className="object-cover w-full h-auto"
+          priority
+        />
       </Link>
       <div className="w-1/2 flex flex-col items-start justify-between px-2">
         <span className="text-pink-500 font-medium text-xl">{type}</span>
@@ -81,6 +86,7 @@ const SpecialProject = ({
           src={img}
           alt={title}
           className="object-cover w-full h-60 rounded-md"
+          priority
         />
       </Link>
       <div className="w-full flex flex-col items-start justify-between px-2">

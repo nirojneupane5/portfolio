@@ -51,6 +51,7 @@ const AboutPage = () => {
               src={profile}
               alt="Niroj Neupane"
               className="object-cover h-full w-full rounded-2xl"
+              priority
             />
           </div>
           <div className="col-span-2 flex flex-col justify-between item-end">
