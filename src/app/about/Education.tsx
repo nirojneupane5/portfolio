@@ -10,7 +10,9 @@ const Education = () => {
   });
   return (
     <div className="mt-10">
-      <h2 className="text-5xl font-bold text-black text-center">Education</h2>
+      <h2 className="text-xl lg:text-5xl font-bold text-black text-center">
+        Education
+      </h2>
       <div ref={ref} className="w-[75%] mx-auto relative">
         <motion.div
           style={{ scaleY: scrollYProgress }}
